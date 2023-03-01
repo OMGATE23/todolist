@@ -1,0 +1,98 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+	padding: 0;
+    width: 700px;
+}
+
+.main-login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+	padding: 0;
+    width: 700px;
+    height: 500px;
+    
+    box-shadow: 5px 5px 25px 25px rgba(0,0,0,0.05);
+}
+
+.login-message-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    background: #4338ca;
+    border-radius:  1rem 0 0 1rem;
+}
+
+.login-message-block h1 {
+    margin-bottom: 0.25rem;
+    color: white;
+    font-weight: 600;
+    font-size: 2.75rem;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width : 350px;
+    height : 500px;
+    margin: 3rem auto;
+    border-radius:  0 1rem 1rem 0;
+    
+}
+
+
+
+.login-note {
+    margin: 0.25rem auto;
+    width: 70%;
+    line-height: 1.2rem;
+    color: #a5b4fc;
+}
+.login-container form {
+    padding: 1rem 0;
+}
+
+.login-container label {
+    display: block;
+}
+
+.login-container input {
+    display: block;
+    margin: 1.5rem auto;
+    width: 70%;
+    height: 2rem;
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+.submit-btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #4338ca;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+
+.login-container a {
+    text-decoration: none;
+}
+
