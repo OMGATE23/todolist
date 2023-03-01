@@ -1,0 +1,95 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+	padding: 0;
+    width: 700px;
+}
+
+.main-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+	padding: 0;
+    width: 700px;
+    height: 500px;
+    box-shadow: 5px 5px 25px 25px rgba(0,0,0,0.05);
+    border-radius: 1rem;
+}
+
+.signup-message-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background: #4338ca;
+    border-radius:  1rem 0 0 1rem;
+}
+
+.signup-message-block h1 {
+    margin-bottom: 0.25rem;
+    color: white;
+    font-weight: 600;
+    font-size: 2.75rem;
+}
+
+.signup-note {
+    margin: 0.25rem auto;
+    width: 70%;
+    line-height: 1.2rem;
+    color: #a5b4fc;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 3rem auto;
+    border-radius:  0 1rem 1rem 0;
+}
+
+.signup-container form {
+    padding: 1rem 0;
+}
+
+.signup-container label {
+    display: block;
+}
+
+.signup-container input {
+    display: block;
+    margin: 1.5rem auto;
+    width: 70%;
+    height: 2rem;
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+.submit-btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #4338ca;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+
+.signup-container a {
+    text-decoration: none;
+}
