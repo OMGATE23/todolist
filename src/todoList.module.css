@@ -1,0 +1,143 @@
+.navbar {
+  display: flex;
+  padding: 2rem 5rem;
+  justify-content: space-between;
+  background: #4338ca;
+  box-shadow: 0px 5px 25px 25px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+}
+
+.navbar button {
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  background-color: #4f46e5;
+  padding: 0.25rem 1rem;
+  border-radius: 0.75rem;
+}
+
+.navbar button:hover {
+  cursor: pointer;
+  background-color: #312e81;
+}
+
+.main-container {
+  display: flex;
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.list-container {
+  min-width: 75%;
+}
+
+.todolist {
+  list-style: none;
+  width: 75%;
+  margin: 2rem ;
+}
+
+.task {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  margin: 3rem 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 1px 1px 25px 10px rgba(0, 0, 0, 0.05);
+}
+
+.task:hover {
+  background-color: #c7d2fe;
+}
+
+.task-name {
+  padding: 1rem 8rem 1rem 1rem;
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #3730a3;
+}
+
+.task-name:hover {
+  cursor: pointer;
+  color: #6366f1;
+}
+
+.task-button-div {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.update-task-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 1.1rem;
+  color: white;
+  background: #4338ca;
+  border-radius: 0.75rem;
+}
+
+.update-task-btn:hover {
+  cursor: pointer;
+  background-color: #6366f1;
+}
+
+.addtask-form-container {
+  min-width: 25%;
+  height: 400px;
+  background-color: #4f46e5;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 25px 25px rgba(0, 0, 0, 0.05);
+}
+
+.addtask-form-container h2 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.addtask-form-container form {
+  width: 75%;
+  margin: 1rem auto;
+  margin-top: 0;
+  padding: 1rem 0;
+  
+}
+
+.addtask-form-container form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.addtask-form-container form input {
+  display: block;
+  margin: 0.5rem auto;
+  width: 90%;
+  height: 1.5rem;
+  font-family: "Poppins";
+}
+
+.add-task-submit-btn {
+  border: 1px solid #4338ca;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  width: 100px;
+  height: 2rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #818cf8;
+  border-radius: 0.5rem;
+}
+
+.add-task-submit-btn:hover {
+  cursor: pointer;
+  background-color: #4338ca;
+}
