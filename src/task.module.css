@@ -1,0 +1,53 @@
+.main-container {
+  outline: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.task-container {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c7d2fe;
+  border-radius: 2rem;
+}
+.task {
+  min-width: 50%;
+}
+.task div {
+  font-size: 1.2rem;
+  margin: 0.75rem;
+  text-align: left;
+  color: #4338ca;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.button-container {
+  width: 30%;
+}
+
+.button-container button {
+  display: block;
+  margin: 1rem auto;
+}
+
+.update-btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #4338ca;
+}
+
+.update-btn:hover {
+  cursor: pointer;
+  background-color: #6366f1;
+}
